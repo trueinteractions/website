@@ -1,0 +1,107 @@
+body {
+}
+
+*:not(.icon) {
+	font-family:Open Sans !important;
+}
+i.icon {
+  font-size: 1.3em;
+}
+.ui.toggle.checkbox.checked,
+.ui.toggle.checkbox.checked input,
+.ui.toggle.checkbox.checked label,
+.ui.toggle.checkbox.checked label::before
+ {
+	color:rgba(102, 207, 207, 1) !important;
+}
+.ui.toggle.checkbox.checked input,
+.ui.toggle.checkbox.checked label::before
+ {
+	background-color:rgba(102, 207, 207, 1) !important;
+
+}
+#mascot, #logo {
+	height:50px;
+}
+#wordmark {
+	margin-top:30px;
+	width:10vw;
+	display:block;
+}
+
+/** old pink: rgba(218, 28, 92, 1); **/
+/** new dark-red: rgba(204,43,0, 1); **/
+/** new dark-orange: rgba(216, 68, 22, 1); **/
+/** new mid-orange: rgba(255, 48, 15, 1); **/
+/** new turqoise: rgba(35, 181, 181, 1); **/
+/** new mustard: rgba(211, 170, 0, 1); **/
+/** new light-turqoise: rgba(102, 207, 207, 1); **/
+
+div.ui.button {
+	font-weight:400;
+	background-color: rgba(255, 48, 15, 0.85);
+	color:white;
+}
+
+.navigation {
+	margin-top:0;
+	margin-bottom:0 !important;
+}
+
+.hero {
+	background-image:url(explore6.png);
+	background-color:#333;
+	background-repeat:no-repeat;
+	box-shadow:inset 0px 0px 25vh 0px rgba(0,0,0,1) !important;
+	background-position:50% 50%;
+	background-size:cover;
+	height:95vh;
+	width:100%;
+	padding-top:15vh !important;
+	padding-bottom:30vh !important;
+	margin-top:0 !important;
+}
+
+.hero > * {
+	text-align:center;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	color:white !important;
+}
+	.hero > h1 {
+		font-weight:300 !important;
+		font-size:4vw !important;
+		text-shadow:1px 1px 10vh rgba(0,0,0,0.95),
+			1px 1px 3px rgba(0,0,0,0.25) !important;
+		width:65vw;
+	}
+	.hero > p {
+		line-height:1.85em;
+		font-size:1.25em !important;
+		text-shadow:1px 1px 5px rgba(0,0,0,0.9) !important;
+		width:35vw;
+	}
+	.hero > div * {
+		font-size: 1.1em; !important;
+	}
+	.hero > div > div.ui.action {
+		margin-top:50px;
+		width:35vw;
+	}
+	.hero > div > div.ui.action > input {
+		background-color:rgba(255,255,255,0.85) !important;
+	}
+	.hero > div > div.ui.action > div.ui, 
+	.hero > div > div.ui.action > input,
+	.hero > div > div.ui.action > div.ui > .icon {
+		line-height:1.5em;
+	}
+	.hero > div > div > .checkbox.subscribe {
+		margin-top:20px;
+	}
+	.hero > div > div > .checkbox.subscribe label::before {
+		background-color: rgba(0,0,0,0.5);
+	}
+	.hero > div > div > .checkbox.subscribe label {
+		color:white;
+	}
