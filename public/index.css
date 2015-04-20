@@ -1,17 +1,24 @@
 body {
 }
 
+* {
+
+}
+
 *:not(.icon) {
 	font-family:Open Sans !important;
 }
 i.icon {
-  font-size: 1.3em;
+	font-size: 1.3em;
+}
+h2 {
+	font-weight: 400 !important;
 }
 .ui.toggle.checkbox.checked,
 .ui.toggle.checkbox.checked input,
 .ui.toggle.checkbox.checked label,
 .ui.toggle.checkbox.checked label::before
- {
+{
 	color:rgba(102, 207, 207, 1) !important;
 }
 .ui.toggle.checkbox.checked input,
@@ -24,7 +31,6 @@ i.icon {
 	height:50px;
 }
 #wordmark {
-	margin-top:30px;
 	width:10vw;
 	display:block;
 }
@@ -44,9 +50,12 @@ div.ui.button {
 }
 
 .navigation {
-	margin-top:0;
+	margin-top:0 !important;
 	margin-bottom:0 !important;
 }
+	.navigation .right.menu {
+		display:inline-block !important;
+	}
 
 .hero {
 	background-image:url(explore6.png);
@@ -55,11 +64,10 @@ div.ui.button {
 	box-shadow:inset 0px 0px 25vh 0px rgba(0,0,0,1) !important;
 	background-position:50% 50%;
 	background-size:cover;
-	height:95vh;
+	padding-top:10vh !important;
+	padding-bottom:10vh !important;
 	width:100%;
-	padding-top:15vh !important;
-	padding-bottom:30vh !important;
-	margin-top:0 !important;
+	margin: 0 !important;
 }
 
 .hero > * {
@@ -76,10 +84,10 @@ div.ui.button {
 		width:65vw;
 	}
 	.hero > p {
-		line-height:1.85em;
-		font-size:1.25em !important;
+		line-height:2em;
 		text-shadow:1px 1px 5px rgba(0,0,0,0.9) !important;
 		width:35vw;
+		font-size: 1.1em;
 	}
 	.hero > div * {
 		font-size: 1.1em; !important;
@@ -105,3 +113,58 @@ div.ui.button {
 	.hero > div > div > .checkbox.subscribe label {
 		color:white;
 	}
+
+.grid.benefits, 
+.grid.links 
+{
+	margin: 20px !important;
+}
+
+.grid.benefits .column, 
+.grid.links .column 
+{
+	box-shadow:none;
+}
+.grid.benefits .column p, 
+.grid.links .column p
+{
+	line-height:1.75em;
+}
+.contact-information,
+.policies,
+.anxillary
+{
+	margin:20px !important;
+}
+
+.ui.table.pricing {
+	margin-left: auto !important;
+	margin-right: auto !important;
+ 	width: 90% !important;
+ 	box-shadow: 0px 15px 45px rgba(0,0,0,0.2);
+ 	border:0px !important;
+ 	margin-top:50px;
+ 	margin-bottom:50px;
+}
+.ui.table.pricing th {
+	color: white;
+	border: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	background-color:rgba(255, 48, 15, 0.85);
+	border:none !important;
+}
+.ui.table.pricing tbody tr td:first-child {
+	color: white;
+	border: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	background-color:rgba(255, 48, 15, 0.85);
+	border:none !important;
+}
+.ui.header:first-child {
+	margin-top:inherit !important;
+}
+
