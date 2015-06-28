@@ -84,9 +84,9 @@ div.ui.button {
 	.hero > div * {
 		font-size: 1.1em; !important;
 	}
-	.hero > div > div.ui.action {
+	.hero div.ui.action {
 		margin-top:50px;
-		width:35vw;
+		min-width:50vw;
 	}
 	.hero > div > div.ui.action > input {
 		background-color:rgba(255,255,255,0.85) !important;
@@ -158,4 +158,8 @@ div.ui.button {
 }
 .ui.header:first-child {
 	margin-top:inherit !important;
+}
+
+.font-white {
+    color: white
 }
