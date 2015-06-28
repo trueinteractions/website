@@ -1,19 +1,10 @@
-body {
-}
-
-* {
-
-}
-
 *:not(.icon) {
 	font-family:Open Sans !important;
 }
 i.icon {
 	font-size: 1.3em;
 }
-h2 {
-	font-weight: 400 !important;
-}
+
 .ui.toggle.checkbox.checked,
 .ui.toggle.checkbox.checked input,
 .ui.toggle.checkbox.checked label,
@@ -53,9 +44,10 @@ div.ui.button {
 	margin-top:0 !important;
 	margin-bottom:0 !important;
 }
-	.navigation .right.menu {
-		display:inline-block !important;
-	}
+
+.navigation .right.menu {
+  display:inline-block !important;
+}
 
 .hero {
 	background-image:url(explore6.png);
@@ -70,12 +62,12 @@ div.ui.button {
 	margin: 0 !important;
 }
 
-.hero > * {
-	text-align:center;
-	margin-left:auto !important;
-	margin-right:auto !important;
-	color:white !important;
-}
+  .hero > * {
+    text-align:center;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    color:white !important;
+  }
 	.hero > h1 {
 		font-weight:300 !important;
 		font-size:4vw !important;
@@ -167,4 +159,3 @@ div.ui.button {
 .ui.header:first-child {
 	margin-top:inherit !important;
 }
-
