@@ -106,28 +106,28 @@ div.ui.button {
 		color:white;
 	}
 
-.grid.benefits, 
-.grid.links 
-{
-	margin: 20px !important;
-}
+/* .grid.benefits,  */
+/* .grid.links  */
+/* { */
+/* 	margin: 20px !important; */
+/* } */
 
-.grid.benefits .column, 
-.grid.links .column 
-{
-	box-shadow:none;
-}
-.grid.benefits .column p, 
-.grid.links .column p
-{
-	line-height:1.75em;
-}
-.contact-information,
-.policies,
-.anxillary
-{
-	margin:20px !important;
-}
+/* .grid.benefits .column,  */
+/* .grid.links .column  */
+/* { */
+/* 	box-shadow:none; */
+/* } */
+/* .grid.benefits .column p,  */
+/* .grid.links .column p */
+/* { */
+/* 	line-height:1.75em; */
+/* } */
+/* .contact-information, */
+/* .policies, */
+/* .anxillary */
+/* { */
+/* 	margin:20px !important; */
+/* } */
 
 .ui.table.pricing {
 	margin-left: auto !important;
@@ -160,6 +160,20 @@ div.ui.button {
 	margin-top:inherit !important;
 }
 
+.ui.transparent.segment {
+    background-color: transparent;
+}
+
+[name*=email-address] {
+    max-width: 550px;
+    margin-top: 20px; !important
+}
+
+
 .font-white {
     color: white
+}
+
+footer {
+    margin-top:20px;
 }

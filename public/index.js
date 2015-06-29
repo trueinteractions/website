@@ -5,19 +5,18 @@ window.addEventListener('load', function() {
 
 	$('.checkbox').checkbox();
 
-  $('.ui.form').form({
-    email: {
-      identifier: 'email-address',
-      rules: [
-        {
-          type: 'empty',
-          prompt: 'Please enter your email address'
-        },
-        {
-          type: 'email',
-          prompt: 'Please enter a valid email address'
-        }
-      ]
-    }
-  })
+  $('.ui.form')
+    .form({
+      emailAddress: {
+        identifier: 'email-address',
+        rules: [
+          {
+            type: 'email',
+            prompt: 'Please enter a vaild email address'
+          }
+        ]
+      }
+    }, {
+      inline: true
+    });
 });
