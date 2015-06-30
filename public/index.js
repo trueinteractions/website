@@ -8,7 +8,7 @@ window.addEventListener('load', function() {
   $('.ui.form')
     .form({
       emailAddress: {
-        identifier: 'email-address',
+        identifier: 'EMAIL',
         rules: [
           {
             type: 'email',

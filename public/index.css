@@ -1,6 +1,7 @@
 *:not(.icon) {
 	font-family:Open Sans !important;
 }
+
 i.icon {
 	font-size: 1.3em;
 }
@@ -8,19 +9,19 @@ i.icon {
 .ui.toggle.checkbox.checked,
 .ui.toggle.checkbox.checked input,
 .ui.toggle.checkbox.checked label,
-.ui.toggle.checkbox.checked label::before
-{
+.ui.toggle.checkbox.checked label::before {
 	color:rgba(102, 207, 207, 1) !important;
 }
-.ui.toggle.checkbox.checked input,
-.ui.toggle.checkbox.checked label::before
- {
-	background-color:rgba(102, 207, 207, 1) !important;
 
+.ui.toggle.checkbox.checked input,
+.ui.toggle.checkbox.checked label::before {
+	background-color:rgba(102, 207, 207, 1) !important;
 }
+
 #mascot, #logo {
 	height:50px;
 }
+
 #wordmark {
 	width:10vw;
 	display:block;
@@ -68,6 +69,7 @@ div.ui.button {
     margin-right:auto !important;
     color:white !important;
   }
+
 	.hero > h1 {
 		font-weight:300 !important;
 		font-size:4vw !important;
@@ -75,33 +77,41 @@ div.ui.button {
 			1px 1px 3px rgba(0,0,0,0.25) !important;
 		width:65vw;
 	}
+
 	.hero > p {
 		line-height:2em;
 		text-shadow:1px 1px 5px rgba(0,0,0,0.9) !important;
 		width:35vw;
 		font-size: 1.1em;
 	}
+
 	.hero > div * {
 		font-size: 1.1em; !important;
 	}
+
 	.hero div.ui.action {
 		margin-top:50px;
 		min-width:50vw;
 	}
+
 	.hero > div > div.ui.action > input {
 		background-color:rgba(255,255,255,0.85) !important;
 	}
+
 	.hero > div > div.ui.action > div.ui, 
 	.hero > div > div.ui.action > input,
 	.hero > div > div.ui.action > div.ui > .icon {
 		line-height:1.5em;
 	}
+
 	.hero > div > div > .checkbox.subscribe {
 		margin-top:20px;
 	}
+
 	.hero > div > div > .checkbox.subscribe label::before {
 		background-color: rgba(0,0,0,0.5);
 	}
+
 	.hero > div > div > .checkbox.subscribe label {
 		color:white;
 	}
@@ -138,6 +148,7 @@ div.ui.button {
  	margin-top:50px;
  	margin-bottom:50px;
 }
+
 .ui.table.pricing th {
 	color: white;
 	border: none;
@@ -147,6 +158,7 @@ div.ui.button {
 	background-color:rgba(255, 48, 15, 0.85);
 	border:none !important;
 }
+
 .ui.table.pricing tbody tr td:first-child {
 	color: white;
 	border: none;
@@ -156,6 +168,7 @@ div.ui.button {
 	background-color:rgba(255, 48, 15, 0.85);
 	border:none !important;
 }
+
 .ui.header:first-child {
 	margin-top:inherit !important;
 }
@@ -164,7 +177,7 @@ div.ui.button {
     background-color: transparent;
 }
 
-[name*=email-address] {
+[name*=EMAIL] {
     max-width: 550px;
     margin-top: 20px; !important
 }
