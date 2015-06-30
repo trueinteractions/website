@@ -185,3 +185,11 @@ footer {
     margin-top:20px;
     background-color: rgb(27, 28, 29);
 }
+
+.content {
+    margin-top: 20px;
+}
+
+.email-input {
+    min-width: 350px;
+}
