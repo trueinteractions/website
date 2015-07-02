@@ -19,4 +19,7 @@ window.addEventListener('load', function() {
     }, {
       inline: true
     });
+
+  $('.ui.accordion')
+    .accordion('toggle');
 });
