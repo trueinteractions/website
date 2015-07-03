@@ -43,133 +43,171 @@
         </div>
       </div>
     </div>
-    <!-- /Hero -->
+
+    <!-- Content -->
 
     <div class="content">
 
       <!-- CSS + HTML + JS = Win and/or OsX -->
+      <div class="ui grid centered stackable">
 
-      <!--       <div class="ui five column grid centered">
-      <div class="column">
-      <img class="ui small image" alt="" src="js.png"/>
-      </div>
-      <div class="column">
-      <img class="ui small image" alt="" src="css3.gif"/>
-      </div>
-      <div class="column">
-      <img class="ui small image" alt="" src="html5.gif"/>
-      </div>
-      </div> -->
-      <div class="ui five column grid centered stackable">
-        <div class="column">
+        <div class="four wide column">
           <img class="lang-img" alt="" src="js.png"/>
           <img class="ui large image" alt="" src="js-screenshot.png"/>
         </div>
-        <div class="column">
+
+        <div class="four wide column">
           <img class="lang-img" alt="" src="html5.gif"/>
           <img class="ui large image" alt="" src="html-screenshot.png"/>
         </div>
-        <div class="column">
+
+        <div class="four wide column">
           <img class="lang-img" alt="" src="css3.gif"/>
           <img class="ui large image" alt="" src="css-screenshot.png"/>
         </div>
-      </div>
 
-      <div class="ui two column grid centered">
-        <div class="column">
+        <div class="ten wide column">
           <div class="ui horizontal divider"> Compiles To </div>
         </div>
       </div>
 
-      <!-- <div class="ui five column grid centered"> -->
-      <!--   <div class="column"> -->
-      <!--     <img class="ui small image" alt="" src="app-store.png"/> -->
-      <!--   </div> -->
-      <!--   <div class="column"> -->
-      <!--     <img class="ui small image" alt="" src="windows-app.png"/> -->
-      <!--   </div> -->
-      <!-- </div> -->
+    </div>
 
+    <div class="ui three column padded grid centered stackable">
+      <div class="column">
+        <img class="ui image tint-screenshot" alt="" src="tint-screenshot.png"/>
+      </div>
+    </div>
 
-      <div class="ui three column padded grid centered stackable">
-        <div class="column">
-          <img class="ui image tint-screenshot" alt="" src="tint-screenshot.png"/>
+    <!-- Benefits -->
+
+    <div class="ui column grid centered stackable items benefits">
+      <div class="row">
+        <h2 class="ui header text-centered">Why Use Tint 2?</h2>
+      </div>
+      <div class="row">
+        <div class="six wide column">
+          <h3 class="ui header">Design Applications Quickly</h3>
+          <p>Design your applications and develop them with existing tools you're already familiar with. Tint supports powerful display capabilities such as WebGL, CSS3, HTML5 or any JavaScript animation library. In addition access native widgets, toolbars, menus through JS.</p>
+        </div>
+
+        <div class="six wide column">
+          <h3 class="ui header">Powerful Native Desktop API</h3>
+          <p>Tint's Javascript based API allows you to access functions and objects to integrate native functionality such as system settings, toolbars, trays, notifications and transparent, glass, framed, kiosk, fullscreen and regular window styles. </p>
         </div>
       </div>
 
-      <!-- Benefits -->
-
-      <div class="ui three column grid centered stackable items benefits">
-        <div class="row">
-          <div class="column">
-            <h2 class="ui header">Design Applications Quickly</h2>
-            <p>Design your applications and develop them with existing tools you're already familiar with. Tint supports powerful display capabilities such as WebGL, CSS3, HTML5 or any JavaScript animation library. In addition access native widgets, toolbars, menus through JS.</p>
-          </div>
-
-          <div class="column">
-            <h2 class="ui header">Powerful Native Desktop API</h2>
-            <p>Tint's Javascript based API allows you to access functions and objects to integrate native functionality such as system settings, toolbars, trays, notifications and transparent, glass, framed, kiosk, fullscreen and regular window styles. </p>
-          </div>
+      <div class="row">
+        <div class="six wide column">
+          <h3 class="ui header">Application Packager</h3>
+          <p>Tint's Compiler takes your HTML, CSS and Javascript resources and compiles a MacOSX and Windows native application with no third-party dependencies or runtimes to install. Distribute your apps how you want.</p>
         </div>
 
-        <div class="row">
-          <div class="column">
-            <h2 class="ui header">Application Packager</h2>
-            <p>Tint's Compiler takes your HTML, CSS and Javascript resources and compiles a MacOSX and Windows native application with no third-party dependencies or runtimes to install. Distribute your apps how you want.</p>
+        <div class="six wide column">
+          <h3 class="ui header">Built-in Debugger</h3>
+          <p>Use built in debugging javascript tools to set break points, trace stacks, change HTML and JavaScript or inspect elements live.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+
+    <div class="ui centered grid stackable">
+      <div class="twelve wide column faq">
+        <h2 class="ui header text-centered">
+          Frequently Asked Questions
+        </h2>
+        <div class="ui styled fluid accordion">
+
+          <div class="title">
+            <i class="dropdown icon"></i>
+            How does Windows code signing work?
+          </div>
+          <div class="content">
+            <p class="transition hidden">Code signing for Tint 2 Free apps works the same as your traditional built apps. You write you Tint 2 app, build it, and then use the program you normally would use to sign your code. Tint 2 Pro adds automatic tooling and functionality around code signing to streamline this process.</p>
           </div>
 
-          <div class="column">
-            <h2 class="ui header">Built-in Debugger</h2>
-            <p>Use built in debugging javascript tools to set break points, trace stacks, change HTML and JavaScript or inspect elements live.</p>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            How does OS X code signing work?
+          </div>
+          <div class="content">
+            <p class="transition hidden">Code signing for OS X is fairly straight forward if you've done it before. Xcode contains command line utilities to package up .dmg or .pkg installer files, in addition theres the codesign utility that can be used to sign the application and submit it to the app store. Again, Tint 2 Pro will streamline this process for you.</p>
+          </div>
+
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Differences between Tint v1 and Tint v2?
+          </div>
+          <div class="content">
+            <p>There's a long long list somewhere. Suffice it to say, about the only thing they share is their aim.</p>
+            <p>Tint used node-webkit and was more or less chrome + node. Tint 2 is node with a custom bridge and API for accessing native objects. At the end of the day Tint 2 is more performant, security compliant, app store compliant, has more features, and streamlines development immensely.</p>
+          </div>
+
+          <div class="title">
+            <i class="dropdown icon"></i>
+            What license does Tint 2 use?
+          </div>
+          <div class="content">
+            <p>It depends on the type of application you're developing. It's your choosing.</p>
+            <p>The MIT license we use allows you to run it or modify it how you chose, and you do not need to disclose any of your source code.  The basic version just includes command line utilities which you can use at your own pleasure (and however you wish with no restrictions), the commercial version is essentially the basic one but with a ton of built in goodies to ease development workflows, debug, etc.  It also includes a support contract with us. </p>
+          </div>
+
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Are there any example apps?
+          </div>
+          <div class="content">
+            <p></p>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- Learning -->
+    <!-- Learning -->
 
-      <div class="ui three column grid centered stackable">
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui items">
-              <div class="ui item">
-                <div class="ui tiny image">
-                  <a href="https://github.com/trueinteractions/tint2" target="_blank">
-                    <img alt="github logo" src="octo-cat.png"/>
+    <div class="ui column grid centered stackable">
+      <div class="six wide column">
+        <div class="ui segment">
+          <div class="ui items">
+            <div class="ui item">
+              <div class="ui tiny image">
+                <a href="https://github.com/trueinteractions/tint2" target="_blank">
+                  <img alt="github logo" src="octo-cat.png"/>
+                </a>
+              </div>
+              <div class="content">
+                <h2 class="ui header">
+                  <a href="https://github.com/trueinteractions/tint2/issues" target="_blank">
+                    Issues and Planned Features
                   </a>
-                </div>
-                <div class="content">
-                  <h2 class="ui header">
-                    <a href="https://github.com/trueinteractions/tint2/issues" target="_blank">
-                      Issues and Planned Features
-                    </a>
-                  </h2>
-                  <div class="description">
-                    <p>Find our source code, file issues, track changes and find out more from our <a href="https://github.com/trueinteractions/tint2" target="_blank">GitHub</a> account.</p>
-                  </div>
+                </h2>
+                <div class="description">
+                  <p>Find our source code, file issues, track changes and find out more from our <a href="https://github.com/trueinteractions/tint2" target="_blank">GitHub</a> account.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="column">
-          <div class="ui segment">
-            <div class="ui items">
-              <div class="ui item">
-                <div class="ui tiny image">
-                  <a href="https://www.trueinteractions.com/docs/" target="_blank">
-                    <img alt="documentation" src="open-book.png"/>
+      <div class="six wide column">
+        <div class="ui segment">
+          <div class="ui items">
+            <div class="ui item">
+              <div class="ui tiny image">
+                <a href="https://www.trueinteractions.com/docs/" target="_blank">
+                  <img alt="documentation" src="open-book.png"/>
+                </a>
+              </div>
+              <div class="content">
+                <h2 class="ui header">
+                  <a href="https://www.trueinteractions.com/tint2/docs/" target="_blank">
+                    TintAPI - Docs &amp; Examples
                   </a>
-                </div>
-                <div class="content">
-                  <h2 class="ui header">
-                    <a href="https://www.trueinteractions.com/tint2/docs/" target="_blank">
-                      TintAPI - Docs &amp; Examples
-                    </a>
-                  </h2>
-                  <div class="description">
-                    <p>Browse through Tint's Javascript API, find overviews, examples and a <a href="https://www.trueinteractions.com/tint2/docs/tutorial-gettingstarted.html" target="_blank">30-second getting started guide</a>.</p>
-                  </div>
+                </h2>
+                <div class="description">
+                  <p>Browse through Tint's Javascript API, find overviews, examples and a <a href="https://www.trueinteractions.com/tint2/docs/tutorial-gettingstarted.html" target="_blank">30-second getting started guide</a>.</p>
                 </div>
               </div>
             </div>
@@ -178,37 +216,7 @@
       </div>
     </div>
 
-    <!-- FAQ -->
-    <div class="ui centered grid stackable">
-      <div class="twelve wide column">
-        <h3>
-          Frequently Asked Questions
-        </h3>
-        <div class="ui styled fluid accordion">
-          <div class="title">
-            <i class="dropdown icon"></i>
-            What is a dog?
-          </div>
-          <div class="content">
-            <p class="transition hidden">A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
-          </div>
-          <div class="title">
-            <i class="dropdown icon"></i>
-            What kinds of dogs are there?
-          </div>
-          <div class="content">
-            <p class="transition hidden">There are many breeds of dogs. Each breed varies in size and temperament. Owners often select a breed of dog that they find to be compatible with their own lifestyle and desires from a companion.</p>
-          </div>
-          <div class="title">
-            <i class="dropdown icon"></i>
-            How do you acquire a dog?
-          </div>
-          <div class="content">
-            <p>Three common ways for a prospective owner to acquire a dog is from pet shops, private owners, or shelters.</p>
-            <p>A pet shop may be the most convenient way to buy a dog. Buying a dog from a private owner allows you to assess the pedigree and upbringing of your dog before choosing to take it home. Lastly, finding your dog from a shelter, helps give a good home to a dog who may not find one so readily.</p>
-          </div>
-        </div>
-      </div>
+
     </div>
 
     <!-- Footer -->

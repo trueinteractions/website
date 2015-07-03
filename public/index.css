@@ -209,3 +209,7 @@ footer {
 .tint-screenshot {
     box-shadow: 0px 0px 35px rgba(0,0,0,0.1);
 }
+
+.faq {
+    margin-top: 20px;
+}
