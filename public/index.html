@@ -9,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="index.css" />
 
     <!-- FONTS -->
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,800' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
@@ -73,13 +73,34 @@
 
     </div>
 
-    <div class="ui three column padded grid centered stackable">
-      <div class="column">
-        <img class="ui image tint-screenshot" alt="" src="images/tint-screenshot.png"/>
+    <div class="ui padded grid centered stackable">
+      <div class="three wide column">
+        <img class="ui small image centered" alt="" src="images/app-store.png"/>
+      </div>
+      <div class="five wide column">
+        <img class="ui image" alt="" src="images/webview.png"/>
+      </div>
+      <div class="three wide column">
+        <img class="ui small image centered" alt="" src="images/windows-app.png"/>
       </div>
     </div>
 
-    <!-- Benefits -->
+    <!-- Why use javascript -->
+
+    <div class="ui grid centered stackable use-js">
+      <div class="ten wide column">
+        <div class="ui segment raised">
+          <div class="ui header text-centered">
+            Why use JavaScript for native applications?
+          </div>
+          <div class="description">
+            <p> Javascript is uniquely capable (including libuv and node) at handling event-based programming. Both server applications and desktop applications share a common problem; responding to events and blocking an event loop. This is typically the cause of slow server performance; or the "white-out" application on Windows or spinning beach-ball of doom on OSX. Tint uses event-based programming to overcome this and makes development of desktop applicaitons much easier and clearer by using an entirely event-based model and non-blocking API for user interfaces. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits (Why use tint) -->
 
     <div class="ui column grid centered stackable items benefits">
       <div class="row">
@@ -217,7 +238,6 @@
       </div>
     </div>
 
-
     </div>
 
     <!-- Footer -->
@@ -243,7 +263,7 @@
         <div class="row">
           <div class="twelve wide column">
             <div class="ui segment inverted">
-              <p>Copyright 2005-2015 True Interactions</p>
+              <p>Copyright 2005-<span class="copyright-to-date">2015</span> True Interactions</p>
             </div>
           </div>
         </div>

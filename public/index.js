@@ -1,10 +1,4 @@
 window.addEventListener('load', function() {
-	$('#menu').on('click', function() {
-		$('.left.sidebar').sidebar('toggle');
-	});
-
-	$('.checkbox').checkbox();
-
   $('.ui.form')
     .form({
       emailAddress: {
@@ -22,4 +16,9 @@ window.addEventListener('load', function() {
 
   $('.ui.accordion')
     .accordion('toggle');
+
+  // Keep copyright year up-to-date;
+  $('.copyright-to-date').text(function() {
+    return new Date().getFullYear();
+  }());
 });
